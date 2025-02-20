@@ -1,0 +1,210 @@
+.root {
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: white;
+}
+
+.common-background {
+    -fx-background-color: #2b2b2b;
+}
+
+.common-text-fill {
+    -fx-text-fill: white;
+}
+
+.common-border-color {
+    -fx-border-color: #555555;
+}
+
+.table-view {
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #555555;
+    -fx-table-cell-border-color: rgba(255, 255, 255, 0.1); 
+}
+
+.table-row-cell {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: white;
+    -fx-border-color: transparent; 
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #444444; 
+}
+
+.table-row-cell:focused, .table-row-cell:selected {
+    -fx-background-color: rgba(255, 255, 255, 0.3); 
+    -fx-text-fill: white; 
+}
+
+.table-column-header {
+    -fx-background-color: #444444;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+}
+
+.table-cell {
+    -fx-text-fill: white; 
+    -fx-border-color: rgba(255, 255, 255, 0.1); 
+}
+
+.chart {
+    -fx-background-color: #2b2b2b;
+}
+
+.chart .axis {
+    -fx-tick-label-fill: white;
+    -fx-tick-mark-fill: white;
+    -fx-axis-line-stroke: white;
+}
+
+.chart .category-axis .axis-label,
+.chart .number-axis .axis-label {
+    -fx-text-fill: white;
+}
+
+.chart-legend-item {
+    -fx-text-fill: white;
+}
+
+.chart-series-line {
+    -fx-stroke-width: 2px;
+}
+
+.text-field, .text-area {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: white;
+    -fx-border-color: #555555;
+    -fx-max-width: 250px;
+}
+
+.button {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-border-color: #555555;
+}
+
+.button:hover {
+    -fx-background-color: #555555;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+}
+
+.combo-box {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: white;
+    -fx-border-color: #555555;
+    -fx-max-width: 250px;
+    
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: white; 
+}
+
+.combo-box .list-cell:filled:selected {
+    -fx-background-color: rgba(255, 255, 255, 0.3); 
+    -fx-text-fill: white; 
+}
+
+.combo-box .list-cell:filled:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.1); 
+    -fx-text-fill: white;
+    -fx-max-width: 250px;
+    
+}
+
+.context-menu {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: white;
+}
+
+.list-view {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: white;
+}
+
+.list-cell {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: white;
+}
+
+.list-cell:focused, .list-cell:selected {
+    -fx-background-color: #66ccff;
+    -fx-text-fill: black;
+}
+
+.toggle-button {
+    -fx-background-color: #444444;
+    -fx-text-fill: white;
+}
+
+.toggle-button:pressed {
+    -fx-background-color: #555555;
+}
+
+.titled-pane {
+    -fx-background-color: #3c3c3c;
+    -fx-border-color: #555555;
+}
+
+.titled-pane > .title {
+    -fx-background-color: #444444;
+    -fx-text-fill: white;
+}
+
+.date-picker {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: white;
+}
+
+.date-picker .arrow {
+    -fx-background-color: #444444;
+}
+
+.date-picker-popup {
+    -fx-background-color: #3c3c3c;
+}
+
+.text {
+    -fx-fill: white;
+}
+
+.border-pane, .vbox, .hbox, .stack-pane, .grid-pane, .anchor-pane, .flow-pane, .tile-pane {
+    -fx-background-color: #2b2b2b;
+}
+
+.menu-bar {
+    -fx-background-color: #444444;
+    -fx-text-fill: white;
+}
+
+.menu-item {
+    -fx-text-fill: white;
+}
+
+.menu-item:hover {
+    -fx-background-color: #555555;
+}
+
+.alert {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-border-color: #555555;
+}
+
+.alert .header {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.alert .content {
+    -fx-text-fill: white;
+}
+
+.text-arabic {
+    -fx-fill: white; 
+}

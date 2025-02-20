@@ -1,0 +1,211 @@
+.root {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.common-background {
+    -fx-background-color: white;
+}
+
+.common-text-fill {
+    -fx-text-fill: black;
+}
+
+.common-border-color {
+    -fx-border-color: #cccccc;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-table-cell-border-color: rgba(0, 0, 0, 0.1); 
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: transparent; 
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f2f2f2; 
+}
+
+.table-row-cell:focused, .table-row-cell:selected {
+    -fx-background-color: rgba(0, 0, 0, 0.3); 
+    -fx-text-fill: black; 
+}
+
+.table-column-header {
+    -fx-background-color: #f2f2f2;
+    -fx-text-fill: black;
+    -fx-border-color: transparent; 
+}
+
+.table-cell {
+    -fx-text-fill: black; 
+    -fx-border-color: rgba(0, 0, 0, 0.1); 
+}
+
+.chart {
+    -fx-background-color: white;
+}
+
+.chart-legend-item {
+    -fx-text-fill: black;
+}
+
+.chart-series-line {
+    -fx-stroke-width: 2px;
+}
+
+.chart .axis {
+    -fx-tick-label-fill: black;
+    -fx-tick-mark-fill: black;
+    -fx-axis-line-stroke: black;
+}
+
+.chart .category-axis .axis-label,
+.chart .number-axis .axis-label {
+    -fx-text-fill: black;
+}
+
+.text-field, .text-area {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: #cccccc;
+    -fx-max-width: 250px;
+    
+}
+
+.button {
+    -fx-background-color: #f2f2f2;
+    -fx-text-fill: black;
+    -fx-border-color: #cccccc;
+}
+
+.button:hover {
+    -fx-background-color: #e6e6e6;
+    -fx-text-fill: black;
+}
+
+.label {
+    -fx-text-fill: black;
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: #cccccc;
+    -fx-max-width: 250px;
+    
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: black; 
+    -fx-max-width: 250px;
+    
+}
+
+.combo-box .list-cell:filled:selected {
+    -fx-background-color: rgba(0, 0, 0, 0.3); 
+    -fx-text-fill: black; 
+        -fx-max-width: 250px;
+    
+}
+
+.combo-box .list-cell:filled:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.1); 
+    -fx-text-fill: black; 
+    -fx-max-width: 250px;
+   
+}
+
+.context-menu {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.list-view {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.list-cell {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.list-cell:focused, .list-cell:selected {
+    -fx-background-color: #cce7ff;
+    -fx-text-fill: black;
+}
+
+.toggle-button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-border-color: #333333;
+    -fx-border-radius: 5px;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-border-color: #333333;
+}
+
+.toggle-button:hover {
+    -fx-background-color: #f0f0f0;
+    -fx-text-fill: black;
+    -fx-border-color: #999999;
+}
+
+.toggle-button:pressed {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-border-color: #555555;
+}
+
+.titled-pane {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+}
+
+.titled-pane > .title {
+    -fx-background-color: #f2f2f2;
+    -fx-text-fill: black;
+}
+
+.date-picker {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.date-picker .arrow {
+    -fx-background-color: #cccccc;
+}
+
+.date-picker-popup {
+    -fx-background-color: white;
+}
+
+.line {
+    -fx-stroke: black;
+}
+
+.text {
+    -fx-fill: black;
+}
+
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 0);
+}
+
+.border-pane, .vbox, .hbox, .stack-pane, .grid-pane, .anchor-pane, .flow-pane, .tile-pane {
+    -fx-background-color: white;
+}
+
+.text-arabic {
+    -fx-fill: black; 
+}
